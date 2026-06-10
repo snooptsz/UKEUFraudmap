@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+feedparser
+pandas
+matplotlib
+lxml
+reportlab
+python-dateutil
+tabulate
