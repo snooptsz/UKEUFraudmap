@@ -6,6 +6,8 @@ It collects public RSS and Google News RSS items, classifies scam/fraud themes, 
 
 > Public sources only. No API keys. No hacked, leaked, private or personal datasets.
 
+> Built with AI support for research structuring, code drafting, workflow design, documentation and report wording. All outputs still require manual review, verification and human judgement before publication.
+
 ---
 
 ## Status
@@ -31,6 +33,21 @@ This app is designed specifically for **Google Colab**. It imports `google.colab
 - Prevention advice, reporting route and recommended next searches.
 - Charts, dashboard, Markdown report, PDF report, CSV and SQLite exports.
 - ZIP download only when the user confirms.
+
+---
+
+## AI support note
+
+This project was built with AI assistance to speed up:
+
+- research planning;
+- code drafting;
+- data-pipeline structure;
+- dashboard/report wording;
+- documentation;
+- portfolio positioning.
+
+AI support was used as a productivity layer, not as a replacement for verification. The workflow remains transparent, rule-based and manually reviewable.
 
 ---
 
@@ -161,4 +178,4 @@ See:
 
 ## Portfolio line
 
-> Built FraudMap UK+EU, a Colab-based OSINT and data-analysis dashboard that collects, classifies, scores and visualises public scam/fraud intelligence across UK and EU source layers, producing professional reports, charts, CSV, SQLite and dashboard exports.
+> Built FraudMap UK+EU, an AI-supported, Colab-based OSINT and data-analysis dashboard that collects, classifies, scores and visualises public scam/fraud intelligence across UK and EU source layers, producing professional reports, charts, CSV, SQLite and dashboard exports.
