@@ -10,13 +10,13 @@ It collects public RSS and Google News RSS items, classifies scam/fraud themes, 
 
 ## Status
 
-The project structure is live. Paste the working Colab script into:
+The repository is live and includes the main Google Colab script:
 
 ```text
 fraudmap_ukeu.py
 ```
 
-Then run it in Google Colab as one code cell.
+This app is designed specifically for **Google Colab**. It imports `google.colab.files` and uses IPython display functions for tables, charts and dashboard rendering. It may fail or crash on a normal Linux terminal/server because Colab-specific modules and `/content/...` paths may not exist outside Colab.
 
 ---
 
@@ -57,17 +57,18 @@ Recommended use:
 
 1. Open Google Colab.
 2. Create a new notebook.
-3. Paste the full `fraudmap_ukeu.py` script into one code cell.
-4. Run the cell.
-5. Select a scope:
+3. Open `fraudmap_ukeu.py` from this repository.
+4. Copy the full script into one Colab code cell.
+5. Run the cell.
+6. Select a scope:
    - UK overview
    - EU overview
    - UK + EU overview
    - specific scam/fraud focus
-6. Review the automatic dashboard and charts.
-7. Download the ZIP export only when prompted.
+7. Review the automatic dashboard and charts.
+8. Download the ZIP export only when prompted.
 
-Local terminal execution may work, but the project is designed for Colab display behaviour.
+Do not treat this as a normal Linux CLI app. It is a Colab-first notebook script and may crash on Linux because of Colab-only imports, display handling and `/content/` export paths.
 
 ---
 
